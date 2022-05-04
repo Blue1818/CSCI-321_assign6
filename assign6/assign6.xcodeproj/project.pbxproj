@@ -17,6 +17,10 @@
 		192BBE202822F9470011DA3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BBDF62822F9450011DA3C /* ContentView.swift */; };
 		192BBE212822F9470011DA3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192BBDF72822F9460011DA3C /* Assets.xcassets */; };
 		192BBE222822F9470011DA3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192BBDF72822F9460011DA3C /* Assets.xcassets */; };
+		1978942C282322BA00BC5471 /* presidentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978942B282322BA00BC5471 /* presidentsModel.swift */; };
+		1978942F282322FF00BC5471 /* listViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978942E282322FF00BC5471 /* listViewModel.swift */; };
+		197894322823236200BC5471 /* detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197894312823236200BC5471 /* detailView.swift */; };
+		197894342823237500BC5471 /* presidentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197894332823237500BC5471 /* presidentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		192BBE152822F9470011DA3C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		192BBE192822F9470011DA3C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		192BBE1B2822F9470011DA3C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		1978942B282322BA00BC5471 /* presidentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = presidentsModel.swift; sourceTree = "<group>"; };
+		1978942E282322FF00BC5471 /* listViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listViewModel.swift; sourceTree = "<group>"; };
+		197894312823236200BC5471 /* detailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailView.swift; sourceTree = "<group>"; };
+		197894332823237500BC5471 /* presidentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = presidentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,9 @@
 		192BBDF42822F9450011DA3C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				197894302823234000BC5471 /* Views */,
+				1978942D282322C300BC5471 /* View Models */,
+				1978942A2823228F00BC5471 /* models */,
 				192BBDF52822F9450011DA3C /* assign6App.swift */,
 				192BBDF62822F9450011DA3C /* ContentView.swift */,
 				192BBDF72822F9460011DA3C /* Assets.xcassets */,
@@ -139,6 +150,31 @@
 				192BBE1B2822F9470011DA3C /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		1978942A2823228F00BC5471 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1978942B282322BA00BC5471 /* presidentsModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		1978942D282322C300BC5471 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				1978942E282322FF00BC5471 /* listViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		197894302823234000BC5471 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				197894312823236200BC5471 /* detailView.swift */,
+				197894332823237500BC5471 /* presidentCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +337,10 @@
 			files = (
 				192BBE1F2822F9470011DA3C /* ContentView.swift in Sources */,
 				192BBE1D2822F9470011DA3C /* assign6App.swift in Sources */,
+				197894342823237500BC5471 /* presidentCell.swift in Sources */,
+				1978942F282322FF00BC5471 /* listViewModel.swift in Sources */,
+				1978942C282322BA00BC5471 /* presidentsModel.swift in Sources */,
+				197894322823236200BC5471 /* detailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
