@@ -1,8 +1,27 @@
 //
 //  presidentCell.swift
-//  assign6 (iOS)
+//  assign6
 //
-//  Created by user214621 on 5/4/22.
+//  Created by Leo Lopez and Dale Westberg on 5/4/22.
 //
 
-import Foundation
+import SwiftUI
+
+struct presidentCell: View {
+    
+    let president: PresViewModel
+    
+    var body: some View {
+        HStack {
+
+            
+            VStack(alignment: .leading) {
+                Text(president.name)
+                    .font(.title2)
+                    .bold()
+
+                Text(president.political_Party)
+            }
+        }
+    }
+}
